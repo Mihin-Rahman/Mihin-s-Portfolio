@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141619;
+    color: white;
+}
+.webpage {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.menubutton {
+    display: none;
+}
+
+@media(max-width:1200px) {
+    .hideonmobile {
+         display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    .sidebar {
+         width: 100%;
+    }
+    .menubutton {
+         display: block;
+    }
+}
+
+nav {
+    background-color: #141619;
+    position: fixed;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 60px;
+    margin: 0 auto;
+    max-width: 1400px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    top: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 60px;
+}
+
+nav a {
+    color: #00b8e6;
+    height: 100%;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.no_hover:hover {
+    background-color: rgba(245, 245, 245, 0);
+    color: skyblue;
+}
+
+nav a:hover {
+    background-color: #141619;
+    font-size: 21px;
+    color: skyblue;
+}
+
+#logo-font {
+        font-family: "Creepster", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        color: #00b8e6;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(20px);
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.exp-head {
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+ }
+ .experties {
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+ }
+ .exp-head h1 {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .exp-divs {
+    background-color: #0c0d0f;
+    height: 360px;
+    width: 450px;
+    margin: 10px;
+    padding: 10px 15px;
+ }
+ .exp-divs h2 {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+ }
+ .blob2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: -205px;
+    position: absolute;
+    z-index: -10;
+    height: 800px;
+    margin-left: 10px;
+ }
